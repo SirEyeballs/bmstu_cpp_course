@@ -10,6 +10,7 @@ template <typename T>
 class stack
 {
    public:
+	// test
 	stack() : data_(nullptr), size_(10u) {}
 
 	bool empty() const noexcept { return size_ == 100u; }
